@@ -1,0 +1,98 @@
+.lesson {
+  .button__wrapper {
+    text-align: center;
+    margin-top: 32px;
+
+    button.download__button {
+      padding: 0.75rem 48px;
+      font-size: 1rem;
+      line-height: 1;
+      background: none;
+      border: 2px solid $blue;
+      border-radius: 4px;
+      overflow: hidden;
+      color: $blue;
+      transition: color 0.2s ease-in;
+      outline: none;
+      user-select: none;
+      text-transform: uppercase;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 105%;
+        height: 105%;
+        z-index: -1;
+        background: $blue;
+        transition: top 0.25s;
+      }
+
+      &:hover {
+        cursor: pointer;
+        color: $white;
+
+        &::after {
+          top: 0;
+        }
+      }
+
+      @media (max-width: 500px) {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.75rem;
+      }
+    }
+  }
+
+  .lesson__section {
+    max-width: 950px;
+    margin: 5% auto;
+
+    .lesson__section--description {
+      vertical-align: top;
+      padding: 20px;
+      display: inline-block;
+      font-family: 'Lato';
+
+      &.left {
+        width: 30%;
+      }
+
+      &.right {
+        width: 70%;
+      }
+
+      .lesson__section--subtitle {
+        text-transform: uppercase;
+        color: $blue;
+        font-size: 1.25rem;
+        margin-bottom: 14px;
+      }
+
+      .lesson__section--info {
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      @media (max-width: 640px) {
+        display: block;
+
+        &.left {
+          width: 60%;
+          margin: 0 auto;
+        }
+
+        &.right {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

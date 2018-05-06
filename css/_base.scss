@@ -1,0 +1,63 @@
+// Base styles that can be applied to any element
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+@-moz-keyframes blink {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+@-ms-keyframes blink {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+.blink {
+  -webkit-animation: blink 0.3s ease-in-out infinite alternate;
+  -moz-animation: blink 0.3s ease-in-out infinite alternate;
+  -ms-animation: blink 0.3s ease-in-out infinite alternate;
+  animation: blink 0.3s ease-in-out infinite alternate;
+}
+
+.content {
+  padding-bottom: 24px;
+}
+
+.page__wrapper {
+  .section__title {
+    text-align: center;
+    margin: 48px auto;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $blue;
+
+    @media (max-width: 540px) {
+      font-size: 1.5rem;
+    }
+  }
+}
