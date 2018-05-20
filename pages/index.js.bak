@@ -17,7 +17,7 @@ const sectionTitles = [
   'Trang chủ',
   'Thanh toán',
   'Liên hệ',
-  'Chính sách bảo hành'
+  'Tin tức'
 ];
 const numOfSections = sectionTitles.length;
 let slideAnimations = {};
@@ -562,27 +562,26 @@ export default class Index extends React.Component {
                 </div>
                 <div className="decal__container--decals">
                   <p>
-                    <b>CHÍNH SÁCH BẢO HÀNH</b>
+                    Innovative Design also teaches 3 decals separate from the club that are open to the public.  You can
+                    register for these decals at the beginning of each semester at <b><a href="http://decal.berkeley.edu" target="_blank">decal.berkeley.edu</a></b>.
+                    Infosessions are mandatory, so check our <b>Events</b> tab or like us on Facebook for details and updates.
                   </p>
                   <p>
-                    <b>1. Các lỗi được bảo hành 1 đổi 1 như sau:</b>
-- Ga không hiện ADS
-- Ga không tổng
-- Ga không hiện địa chỉ nhập mã pin khi đủ 10$
-- Ga lỗi đăng ký
-- Ga tự die không rõ nguyên nhân do phía mình như cách đăng ký...
+                    <b>Intro to Photoshop and Illustrator</b> teaches graphic design through the use of Adobe Illustrator and Photoshop. 
+                    This class is built for students who do not have any prior experience or knowledge of these programs.
                   </p>
                   <p>
-                    <b>2. Các lỗi không được bảo hành như sau:</b>
-- Web đặt GA bị vi phạm làm Ga die
-- Các bạn dùng tool, cheat kéo view làm Ga die
-- Các bạn tự click làm Ga die
-- Bị click tặc do bị chơi xấu
-- Ga tự die do một số nguyên nhân từ phía các bạn
-- Các bạn dùng hệ thống kéo view ngày 100$ - 200$ - 300$ làm ga die
-
+                    <b>Graphic Design Principles</b> is a technical course in which students are taught extensive knowledge of Adobe programs (such as Illustrator and/or Photoshop). 
+                    The class also covers conceptual and theoretical aspects of design such as color theory, branding, and user interface design.
                   </p>
-                  
+                  <p>
+                    <b>Photography Principles</b> is for students interested in learning photography. We start off with the basics (camera manipulations and shooting in RAW) and quickly 
+                    move onto composition rules and tricks to get better, more thought out photos, and from there move onto how to be a professional photographer, 
+                    photo ethics, and integrating art into photography.
+                  </p>
+                  <p>
+                    You can take a look at lessons and homework for each of these decals in the <b>Decal Students</b> tab above.
+                  </p>
                 </div>
               </div>
             </div>
