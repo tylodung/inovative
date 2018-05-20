@@ -374,7 +374,7 @@ export default class Index extends React.Component {
     });
 
     return (
-      <DocumentTitle title="Innovative Design">
+      <DocumentTitle title="Doàn Bình Google Adsense">
         <div>
           <KeyHandler
             keyEventName={KEYDOWN}
