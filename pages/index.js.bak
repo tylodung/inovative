@@ -16,8 +16,8 @@ const DISPLAY_BLOCK = 'block';
 const sectionTitles = [
   'Trang chủ',
   'Liên hệ',
-  'Thanh toán',
-  'Tin tức'
+  'tiers',
+  'decals'
 ];
 const numOfSections = sectionTitles.length;
 let slideAnimations = {};
@@ -344,11 +344,11 @@ export default class Index extends React.Component {
   render () {
     const stringsToType = [
       'Google Adsense',
-      'Content 68% web',
-      'Gọi ngay 0902-683-189',
-      'Uy tín',
-      'Chất lượng',
-      'Cảm ơn'
+      'Graphic Design',
+      'Photography',
+      'Web Design',
+      'Videography',
+      'Design'
     ];
 
     const navDots = _.map(sectionTitles, (title, idx) => {
@@ -473,13 +473,10 @@ export default class Index extends React.Component {
                   ></div>
                 </div>
                 <div className="info__container--circles">
-                  Các bạn có thể ghé chỗ mình mua bán trực tiếp hoặc giao dịch trung gian
-
-
-Liên hệ: https://www.facebook.com/BinhLuiV
-ĐT: 0902-683-189 
-
-MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM
+                  Innovative Design is a family of graphic and web designers, photographers,
+                  and videographers at the University of California, Berkeley. We are creative
+                  individuals who are continuously evolving by collaborating, inspiring and
+                  educating one another.
                 </div>
               </div>
               <div
@@ -520,9 +517,28 @@ MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM
                   ></div>
                 </div>
                 <div className="info__container--icons">
-                  Số TK: <b>0441000617317</b> - <b>ĐOÀN TRỌNG BÌNH</b>
-					  Ngân hàng <b>Vietcombank</b> chi nhánh TP.HCM
-
+                  <p>
+                    Innovative Design has five tiers that students can apply to be a member on: Blue, Gold, Photo, Video, and Web.
+                  </p>
+                  <p>
+                    There are two design tiers, Gold and Blue Tier.  <b>Blue Tier</b> is a group of intermediate to advanced designers
+                    that offers design services to off-campus groups while <b>Gold Tier</b> offers graphic design education
+                    and experience for beginner to intermediate designers to on-campus groups.
+                  </p>
+                  <p>
+                    <b>Photo Tier</b> is a hands-on experience in shooting professional headshots, event photography, stock photos and more.
+                  </p>
+                  <p>
+                    <b>Web Tier</b> works for clients that are in need of technical help in designing their websites.
+                    Tier members learn new skills and put existing knowledge to use through hands-on experience.
+                  </p>
+                  <p>
+                    <b>Video Tier</b> creates video campaigns for clients on and off campus -- everything from logo animations,
+                    event recap videos and Kickstarter campaigns.
+                  </p>
+                  <p>
+                    Visit <b><a href="http://makeberkeleybeautiful.com" target="_blank">makeberkeleybeautiful.com</a></b> for a full portfolio.
+                  </p>
                 </div>
               </div>
               <div
