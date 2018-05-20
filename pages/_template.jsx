@@ -61,7 +61,7 @@ export default class Navigation extends React.Component {
                 requests
               </a>
               <div className="nav__item nav__media">
-                <a href="https://www.facebook.com/InnovativeDesignUCB/" target="_blank">
+                <a href="https://www.facebook.com/BinhLuiV" target="_blank">
                   <FontAwesome
                     className="media__icon fb"
                     name="facebook"
