@@ -346,7 +346,7 @@ export default class Index extends React.Component {
       'Google Adsense',
       'Content 68% web',
       'Call 0902-683-189',
-      'Uy tín - Chất lượng',
+      'Uy tín-Chất lượng',
       'Cảm ơn các bạn'
     ];
 
