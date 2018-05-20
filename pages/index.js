@@ -345,10 +345,10 @@ export default class Index extends React.Component {
     const stringsToType = [
       'Google Adsense',
       'Content 68% web',
-      'Gọi ngay 0902-683-189',
+      'Call 0902-683-189',
       'Uy tín',
       'Chất lượng',
-      'Cảm ơn'
+      'Cảm ơn các bạn'
     ];
 
     const navDots = _.map(sectionTitles, (title, idx) => {
