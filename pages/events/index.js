@@ -93,7 +93,7 @@ export default class Index extends React.Component {
     );
 
     return (
-      <DocumentTitle title="Innovative Design">
+      <DocumentTitle title="Sự Kiện">
         <div>
           <div className="page__wrapper events">
             <h1 className="section__title">upcoming events</h1>
