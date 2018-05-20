@@ -339,7 +339,7 @@ export default class Index extends React.Component {
     ) : null;
 
     return (
-      <DocumentTitle title="Innovative Design">
+      <DocumentTitle title="Hỗ trợ">
         <div>
           <div className="page__wrapper requests">
             <h1 className="section__title">design requests</h1>

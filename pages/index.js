@@ -17,7 +17,7 @@ const sectionTitles = [
   'Trang chủ',
   'Thanh toán',
   'Liên hệ',
-  'Chính sách bảo hành'
+  'Chính sách'
 ];
 const numOfSections = sectionTitles.length;
 let slideAnimations = {};
