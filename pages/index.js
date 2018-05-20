@@ -14,8 +14,8 @@ import Typing from './components/typing';
 const DISPLAY_NONE = 'none';
 const DISPLAY_BLOCK = 'block';
 const sectionTitles = [
-  'home',
-  'about',
+  'Trang chủ',
+  'Liên hệ',
   'tiers',
   'decals'
 ];
@@ -343,7 +343,7 @@ export default class Index extends React.Component {
 
   render () {
     const stringsToType = [
-      'Design',
+      'Google Adsense',
       'Graphic Design',
       'Photography',
       'Web Design',
@@ -374,7 +374,7 @@ export default class Index extends React.Component {
     });
 
     return (
-      <DocumentTitle title="Do�n B�nh Google Adsense">
+      <DocumentTitle title="Đoàn Bình Google Adsense">
         <div>
           <KeyHandler
             keyEventName={KEYDOWN}
