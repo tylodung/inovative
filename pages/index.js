@@ -15,8 +15,8 @@ const DISPLAY_NONE = 'none';
 const DISPLAY_BLOCK = 'block';
 const sectionTitles = [
   'Trang chủ',
-  'Liên hệ',
   'Thanh toán',
+  'Liên hệ',
   'Tin tức'
 ];
 const numOfSections = sectionTitles.length;
@@ -346,8 +346,7 @@ export default class Index extends React.Component {
       'Google Adsense',
       'Content 68% web',
       'Call 0902-683-189',
-      'Uy tín',
-      'Chất lượng',
+      'Uy tín - Chất lượng',
       'Cảm ơn các bạn'
     ];
 
@@ -474,17 +473,9 @@ export default class Index extends React.Component {
                 </div>
                 <div className="info__container--circles">
                   <p>
-				  Các bạn có thể ghé chỗ mình <b>mua bán trực tiếp</b> hoặc <b>giao dịch trung gian</b>.
+                  Số TK: <b>0441000617317</b> - <b>ĐOÀN TRỌNG BÌNH</b>
 					  </p>
-					  <p>
-				  <b>Liên hệ: https://www.facebook.com/BinhLuiV</b>
-				  </p>
-					  <p>
-					  ĐT: <b>0902-683-189</b>
-					  </p>
-					  <p>
-					  <b>MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM</b>
-					  </p>
+				  Ngân hàng <b>Vietcombank</b> chi nhánh TP.HCM
                 </div>
               </div>
               <div
@@ -526,9 +517,17 @@ export default class Index extends React.Component {
                 </div>
                 <div className="info__container--icons">
 					  <p>
-                  Số TK: <b>0441000617317</b> - <b>ĐOÀN TRỌNG BÌNH</b>
+				  Các bạn có thể ghé chỗ mình <b>mua bán trực tiếp</b> hoặc <b>giao dịch trung gian</b>.
 					  </p>
-				  Ngân hàng <b>Vietcombank</b> chi nhánh TP.HCM
+					  <p>
+				  Liên hệ: <b>https://www.facebook.com/BinhLuiV</b>
+				  </p>
+					  <p>
+					  ĐT: <b>0902-683-189</b>
+					  </p>
+					  <p>
+					  <b>MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM</b>
+					  </p>
 
                 </div>
               </div>
