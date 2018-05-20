@@ -473,13 +473,18 @@ export default class Index extends React.Component {
                   ></div>
                 </div>
                 <div className="info__container--circles">
-                  Các bạn có thể ghé chỗ mình mua bán trực tiếp hoặc giao dịch trung gian
-
-
-Liên hệ: https://www.facebook.com/BinhLuiV
-ĐT: 0902-683-189 
-
-MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM
+                  <p>
+				  Các bạn có thể ghé chỗ mình <b>mua bán trực tiếp</b> hoặc <b>giao dịch trung gian</b>.
+					  </p>
+					  <p>
+				  <b>Liên hệ: https://www.facebook.com/BinhLuiV</b>
+				  </p>
+					  <p>
+					  ĐT: <b>0902-683-189</b>
+					  </p>
+					  <p>
+					  <b>MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM</b>
+					  </p>
                 </div>
               </div>
               <div
@@ -520,8 +525,10 @@ MUA BÁN UY TÍN - NÓI KHÔNG VỚI SCAM
                   ></div>
                 </div>
                 <div className="info__container--icons">
+					  <p>
                   Số TK: <b>0441000617317</b> - <b>ĐOÀN TRỌNG BÌNH</b>
-					  Ngân hàng <b>Vietcombank</b> chi nhánh TP.HCM
+					  </p>
+				  Ngân hàng <b>Vietcombank</b> chi nhánh TP.HCM
 
                 </div>
               </div>
