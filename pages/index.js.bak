@@ -434,7 +434,7 @@ export default class Index extends React.Component {
                     className="slide__button slide__button--1"
                     style={{ backgroundImage: `url("${prefixLink('/img/club-one.jpg')}")` }}
                   ></div>
-                  <a href="http://makeberkeleybeautiful.com" target="_blank">
+                  <a href="http://myphamcacloai.net" target="_blank">
                     <div className="slide__button slide__button--2">
                       <div className="apply__text">portfolio</div>
                       <div className="slide__fill"></div>
