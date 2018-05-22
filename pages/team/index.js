@@ -214,7 +214,7 @@ export default class Index extends React.Component {
     });
 
     return (
-      <DocumentTitle title="Team">
+      <DocumentTitle title="Nhóm">
         <div>
           <div className="page__wrapper team">
             <h1 className="section__title">
