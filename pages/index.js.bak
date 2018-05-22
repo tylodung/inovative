@@ -436,7 +436,7 @@ export default class Index extends React.Component {
                   ></div>
                   <a href="http://myphamcacloai.net" target="_blank">
                     <div className="slide__button slide__button--2">
-                      <div className="apply__text">portfolio</div>
+                      <div className="apply__text">chuyên cung cấp account google adsense content web chưa pin - đã pin - đã pay - call 0902-683-189</div>
                       <div className="slide__fill"></div>
                     </div>
                   </a>
