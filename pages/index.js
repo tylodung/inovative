@@ -471,7 +471,7 @@ export default class Index extends React.Component {
                     style={{ backgroundImage: `url("${prefixLink('/img/flyers.png')}")` }}
                   ></div>
                 </div>
-                <div className="icons__container--circles">
+                <div className="info__container--circles">
                   <p>
                   Số TK: <b>0441000617317</b> - <b>ĐOÀN TRỌNG BÌNH</b>
 					  </p>
