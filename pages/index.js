@@ -566,6 +566,7 @@ export default class Index extends React.Component {
                   </p>
                   <p>
                     <b>1. Các lỗi được bảo hành 1 đổi 1 như sau:</b>
+					  </p>
 					  <p>
 - Ga không hiện ADS
 - Ga không tổng
@@ -573,9 +574,9 @@ export default class Index extends React.Component {
 - Ga lỗi đăng ký
 - Ga tự die không rõ nguyên nhân do phía mình như cách đăng ký...
 					  </p>
-                  </p>
                   <p>
                     <b>2. Các lỗi không được bảo hành như sau:</b>
+					  </p>
 					  <p>
 - Web đặt GA bị vi phạm làm Ga die
 - Các bạn dùng tool, cheat kéo view làm Ga die
@@ -584,8 +585,6 @@ export default class Index extends React.Component {
 - Ga tự die do một số nguyên nhân từ phía các bạn
 - Các bạn dùng hệ thống kéo view ngày 100$ - 200$ - 300$ làm ga die.
 					  </p>
-
-                  </p>
                   
                 </div>
               </div>
