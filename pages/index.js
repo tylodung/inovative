@@ -422,7 +422,7 @@ export default class Index extends React.Component {
                   <Typing
                     defaultString="Design"
                     strings={ stringsToType }
-                    interval={ { letter: 100, string: 500 } }
+                    interval={ { letter: 30, string: 500 } }
                     backspace={ true }
                     cursor={ '|' }
                     startDelay={ 950 }
