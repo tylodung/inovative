@@ -67,13 +67,13 @@ export default class Navigation extends React.Component {
                     name="facebook"
                   />
                 </a>
-                <a href="https://twitter.com/innodatcal" target="_blank">
+                <a href="https://twitter.com/inn" target="_blank">
                   <FontAwesome
                     className="media__icon twitter"
                     name="twitter"
                   />
                 </a>
-                <a href="https://www.instagram.com/innodatcal/" target="_blank">
+                <a href="https://www.instagram.com/inno/" target="_blank">
                   <FontAwesome
                     className="media__icon ig"
                     name="instagram"
