@@ -309,7 +309,7 @@ export default class Index extends React.Component {
           Due to the large volume of requests, an officer should be reaching out to you within 2 weeks to discuss the details of the project.
         </p>
         <p>
-          Feel free to reach out to <a href="mailto:innovativedesignatcal@gmail.com">innovativedesignatcal@gmail.com</a> with additional questions.
+          Feel free to reach out to <a href="mailto:doan.trong.quoc.binh@gmail.com">doan.trong.quoc.binh@gmail.com</a> with additional questions.
         </p>
         <p
           style={{
