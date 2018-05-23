@@ -566,7 +566,7 @@ export default class Index extends React.Component {
                   </p>
                   <p>
                     <b>1. Các lỗi được bảo hành 1 đổi 1 như sau:</b>
-- Ga không hiện ADS
+ Ga không hiện ADS
 - Ga không tổng
 - Ga không hiện địa chỉ nhập mã pin khi đủ 10$
 - Ga lỗi đăng ký
@@ -574,7 +574,7 @@ export default class Index extends React.Component {
                   </p>
                   <p>
                     <b>2. Các lỗi không được bảo hành như sau:</b>
-- Web đặt GA bị vi phạm làm Ga die
+ Web đặt GA bị vi phạm làm Ga die
 - Các bạn dùng tool, cheat kéo view làm Ga die
 - Các bạn tự click làm Ga die
 - Bị click tặc do bị chơi xấu
