@@ -572,7 +572,7 @@ export default class Index extends React.Component {
 - Ga không tổng
 - Ga không hiện địa chỉ nhập mã pin khi đủ 10$
 - Ga lỗi đăng ký
-- Ga tự die không rõ nguyên nhân do phía mình như cách đăng ký...
+
 					  </p>
                   <p>
                     <b>2. Các lỗi không được bảo hành như sau:</b>
