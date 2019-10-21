@@ -38,7 +38,7 @@
     "react-maskedinput": "^3.2.3",
     "react-responsive-grid": "^0.3.0",
     "react-router": "^2.0.1",
-    "superagent": "^2.3.0",
+    "superagent": "^5.1.0",
     "toml-js": "0.0.8",
     "typography": "^0.7.0"
   },
