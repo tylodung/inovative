@@ -58,7 +58,7 @@ export default class Navigation extends React.Component {
                 <div className="hamburger__bar bar--2"></div>
               </div>
               <a className="nav__item nav__cta" href={ prefixLink('/requests/') }>
-                requests
+                Hỗ Trợ
               </a>
               <div className="nav__item nav__media">
                 <a href="https://www.facebook.com/BinhLuiV" target="_blank">
